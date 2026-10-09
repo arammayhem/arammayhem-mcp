@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.arammayhem/arammayhem",
+  "title": "ARAM Mayhem",
+  "description": "ARAM Mayhem builds, tiers, augments, combos and patch notes with canonical page citations.",
+  "version": "1.0.0",
+  "websiteUrl": "https://arammayhem.com/use-with-ai/",
+  "repository": {
+    "url": "https://github.com/arammayhem/arammayhem-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://arammayhem.com/mcp"
+    }
+  ]
+}
